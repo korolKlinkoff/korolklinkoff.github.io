@@ -23,6 +23,20 @@
 <script type="text/javascript">
 VK.Widgets.AllowMessagesFromCommunity("vk_allow_messages_from_community", {}, 2158488);
 </script>
+  <br>
   <img src="https://korolklinkoff.github.io/supercar.jpg">
+  <br>
+  <!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 7466781, onlyWidgets: true});
+</script>
+
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: false});
+</script>
 </body>
 </html>
