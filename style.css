@@ -1,23 +1,22 @@
 a {
-  color:#000000;
-  font-family: 'Roboto', sans-serif;
-  front-size:16pt;
+  color:#FFFFFF;
+  front-size:12pt;
   text-decoration: none;
 }
 b {
 color:#000000;
 front-size: 15pt;
-font-family: 'Roboto', sans-serif;
 }
 body {
 background-color: #F3E2A9;
 color:#1C1C1C;
-front-famaly: 'Roboto', sans-serif;
 front-size: 14pt;
 }
 h1 {
 color:#000000;
 front-size: 30pt;
-font-family: 'Roboto', sans-serif;
 font-weight: normal;
+}
+table {
+margin: auto
 }
