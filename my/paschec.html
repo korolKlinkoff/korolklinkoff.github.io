@@ -3,6 +3,22 @@
 <head>
 </head>
 <body>
-тикай нахой!
+<script>
+function parseUrlQuery() {
+    var data = {}
+        ,   pair = false
+        ,   param = false;
+    if(location.search) {
+        pair = (location.search.substr(1)).split('&');
+        for(var i = 0; i < pair.length; i ++) {
+            param = pair[i].split('=');
+            data[param[0]] = param[1];
+        }
+    }
+    return data;
+}
+
+console.log(parseUrlQuery());
+</script>
 </body>
 </html>
